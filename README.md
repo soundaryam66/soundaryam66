@@ -1,16 +1,24 @@
-## Hi there 👋
+## Task 1 - Network Port Scanning
 
-<!--
-**soundaryam66/soundaryam66** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##Objective
 
-Here are some ideas to get you started:
+To discover open ports in the local network and understand potential security risks.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##Tools Used
+
+*Nmap
+*Wireshark (optional)
+
+*Steps
+1.Installed Nmap.
+2.Found my local IP range using if windows 'ipconfig' or else kali 'ifconfig'.
+3.Open wireshark for capture the data packets.
+4.Run nmap -sS '192.168.1.0/24'.
+5.Saved results as 'scan_result.txt'.
+6.Stop the wireshark and save the file 'capture.pcapng'.
+7.Identified open ports and analyzed risks.
+
+##Outcome
+
+*Learned about TCP SYN scanning.
+*Understood network exposure via open ports.
