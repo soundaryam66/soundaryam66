@@ -1,15 +1,15 @@
 ## Task 1 - Network Port Scanning
 
-##Objective
+## Objective
 
 To discover open ports in the local network and understand potential security risks.
 
 ##Tools Used
 
-*Nmap
-*Wireshark (optional)
+ * Nmap
+ * Wireshark (optional)
 
-*Steps
+* Steps
 1.Installed Nmap.
 2.Found my local IP range using if windows 'ipconfig' or else kali 'ifconfig'.
 3.Open wireshark for capture the data packets.
@@ -18,7 +18,7 @@ To discover open ports in the local network and understand potential security ri
 6.Stop the wireshark and save the file 'capture.pcapng'.
 7.Identified open ports and analyzed risks.
 
-##Outcome
+## Outcome
 
-*Learned about TCP SYN scanning.
-*Understood network exposure via open ports.
+* Learned about TCP SYN scanning.
+* Understood network exposure via open ports.
