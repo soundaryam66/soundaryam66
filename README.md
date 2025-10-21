@@ -17,7 +17,7 @@ To discover open ports in the local network and understand potential security ri
 
 3.Open wireshark for capture the data packets.
 
-4.Run nmap -sS '192.168.78.1/24'.
+4.Run nmap -sS '192.168.200.297/24'.
 
 5.Saved results as 'scan_result.txt'.
 
